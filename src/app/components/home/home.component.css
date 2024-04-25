@@ -1,0 +1,23 @@
+body
+{
+    background-color: black;
+    min-height: 100vh;
+}
+
+div
+{
+    .container {
+        height: 200px;
+        position: relative;
+      }
+      
+      .center {
+        margin: 0;
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+}
+
