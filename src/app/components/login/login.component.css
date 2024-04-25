@@ -5,6 +5,7 @@
     float: left;
     padding: 60px 50px 40px 50px;
     width: 100%;
+    height: 500px;
     background: #fff;
     border-radius: 10px;
     transform: scale(1);
@@ -485,4 +486,16 @@
        outline: none;
     }
  }
+
+ .mensajeAlerta {
+   position: absolute;
+   top: 85%;
+   right: 36.8%;
+   width: 500px;
+   text-align: center;
+   padding: 20px;
+   background-color: #1e6fe9;
+   color: white;
+ }
+ 
  

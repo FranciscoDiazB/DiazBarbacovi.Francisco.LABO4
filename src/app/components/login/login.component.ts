@@ -14,6 +14,8 @@ export class LoginComponent {
 
     private router = inject(Router);
 
+    mensaje:string = "Bienvenido";
+
     usuario: string = "Fran";
     contra:string = "1234";
 
@@ -27,8 +29,18 @@ export class LoginComponent {
           this.router.navigateByUrl("/home")
         }
         else{
-          console.log("Error");
+          this.mensaje = "Usuario Incorrecto. Reingrese los datos!"
         }
+    }
+
+    protected Registrar(){
+        
+        this.mensaje = "Se clickeo en Registrar. Todavia no esta implementado"
+    }
+
+    protected Completar(){
+      this.user = "Fran";
+      this.contras = "1234";
     }
   
 }

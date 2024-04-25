@@ -25,13 +25,18 @@
               <span class="spin"></span>
            </div>
      
-           <div class="button login">
-              <button (click)="Ingresar()"><span>Ingresar</span> <i class="fa fa-check"></i></button>
-           </div>
-        </div>
-     
-       
-     
+           
+            <button class="btn btn-primary m-1" style="position: fixed; top: 70%; right: 52%; width: 150px; height: 50px;" (click)="Ingresar()" >Ingresar</button>
+            <button class="btn btn-primary m-1" style="position: fixed; top: 70%; right: 13%; width: 150px; height: 50px;" (click)="Registrar()">Registrar</button>
+
+            <button class="btn btn-primary m-1" style="position: fixed; top: 84%; right: 13%; width: 330px; height: 50px;" (click)="Completar()">Usuario "Fran"</button>
+            
+
+        </div>     
      </div>
+
+     <div class="mensajeAlerta">
+      {{mensaje}}
+      </div>
 </body>
 </html>
